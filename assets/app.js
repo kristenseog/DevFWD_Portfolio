@@ -76,3 +76,11 @@ document.querySelector('#contact-btn').addEventListener('submit', (e) => {
     e.target.elements.email.value = '';
     e.target.elements.message.value = '';
   });
+
+
+
+  var downloadBtn = document.querySelector('download-cv');
+downloadBtn.addEventListener('click', function() {
+  var fileUrl = 'v2 Kristen Seog_tech_CV.docx.pdf';
+  window.location.href = fileUrl;
+});
